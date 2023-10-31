@@ -1,0 +1,45 @@
+.filtered-books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .book-card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .book-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .book-card-image {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .book-card-content {
+    margin-top: 10px;
+  }
+  
+  .book-card-title {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .book-card-author {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .book-card-language {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  

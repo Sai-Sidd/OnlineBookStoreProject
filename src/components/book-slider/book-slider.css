@@ -1,0 +1,48 @@
+.book-slider-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+  }
+  
+  .book-slider-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust the width as needed */
+    grid-gap: 40px;
+    justify-items: center;
+    max-width: 90vw; /* Adjust the max-width as needed */
+    margin: 0 auto;
+  }
+  
+  .book-slide-item {
+    text-align: center;
+    height: 100%;
+    background: #f9f9f9;
+    border-radius: 10px;
+    width: 100%;
+    height:100%;
+  }
+  
+  .book-slide-item-img {
+    width: 100%;
+    height: 200px; /* Fixed height for each card image */
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .book-slide-item-title {
+    margin: 10px 0;
+  }
+  
+  .book-slider-item-price {
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .book-slider-icons-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
